@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="name">Имя</string>
+	<string name="age">Возраст</string>
+	<string name="value">Стоимость</string>
+	<string name="wage">Зарплата</string>
+	<string name="condition">Готовность</string>
+	<string name="potential">Потенциал</string>
+	<string name="rating">Рейтинг</string>
+	<string name="skillLevel">Ур.умений</string>
+	
+	<string name="defense">Защита</string>
+	
+	<string name="keep">Вратарство</string>
+	<string name="mark">Опека</string>
+	<string name="position">Позиционная игра</string>
+	<string name="head">Игра головой</string>
+	<string name="steal">Отбор</string>
+	
+	<string name="offense">Нападение</string>
+	
+	<string name="firstTouch">Первое касание</string>
+	<string name="pass">Пас</string>
+	<string name="dribble">Дриблинг</string>
+	<string name="cross">Навесы</string>
+	<string name="finish">Завершение</string>
+	
+	<string name="physical">Физика/Настрой</string>
+	
+	<string name="agility">Ловкость</string>
+	<string name="strength">Сила</string>
+	<string name="fitness">Выносливость</string>
+	<string name="speed">Скорость</string>
+	<string name="creativity">Креативность</string>
+	
+	<string name="main_squad">Основной состав</string>
+	<string name="youth_squad">Молодëжная команда</string>
+</resources>

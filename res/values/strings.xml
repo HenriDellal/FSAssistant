@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">FS Assistant</string>
+	
+	<string name="name">Name</string>
+	<string name="age">Age</string>
+	<string name="value">Value</string>
+	<string name="wage">Wage</string>
+	<string name="condition">Condition</string>
+	<string name="potential">Potential</string>
+	<string name="rating">Rating</string>
+	<string name="skillLevel">Skill level</string>
+	
+	<string name="defense">Defense</string>
+	
+	<string name="keep">Keep</string>
+	<string name="mark">Mark</string>
+	<string name="position">Position</string>
+	<string name="head">Head</string>
+	<string name="steal">Steal</string>
+	
+	<string name="offense">Offense</string>
+	
+	<string name="firstTouch">First touch</string>
+	<string name="pass">Pass</string>
+	<string name="dribble">Dribble</string>
+	<string name="cross">Cross</string>
+	<string name="finish">Finish</string>
+	
+	<string name="physical">Physical/Mental</string>
+	
+	<string name="agility">Agility</string>
+	<string name="strength">Strength</string>
+	<string name="fitness">Fitness</string>
+	<string name="speed">Speed</string>
+	<string name="creativity">Creativity</string>
+	
+	<string-array name="sorting_parameters">
+		<item>@string/name</item>
+		<item>@string/age</item>
+		<item>@string/value</item>
+		<item>@string/wage</item>
+		<item>@string/condition</item>
+		<item>@string/potential</item>
+		<item>@string/rating</item>
+		<item>@string/skillLevel</item>
+		<item>@string/keep</item>
+		<item>@string/mark</item>
+		<item>@string/position</item>
+		<item>@string/head</item>
+		<item>@string/steal</item>
+		<item>@string/firstTouch</item>
+		<item>@string/pass</item>
+		<item>@string/dribble</item>
+		<item>@string/cross</item>
+		<item>@string/finish</item>
+		<item>@string/agility</item>
+		<item>@string/strength</item>
+		<item>@string/fitness</item>
+		<item>@string/speed</item>
+		<item>@string/creativity</item>
+		<item>GK rate</item>
+		<item>SW rate</item>
+		<item>DLR rate</item>
+		<item>WBLR rate</item>
+		<item>DC rate</item>
+		<item>DMC rate</item>
+		<item>MLR rate</item>
+		<item>AMLR rate</item>
+		<item>AMC rate</item>
+		<item>MC rate</item>
+		<item>ST rate</item>
+	</string-array>
+	
+	<string name="all_rates">All rates</string>
+	<string name="team_wage">Team wage</string>
+	<string name="injured">Injured</string>
+	
+	<string name="main_squad">Main squad</string>
+	<string name="youth_squad">Youth squad</string>
+</resources>

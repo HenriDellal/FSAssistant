@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="black">#000000</color>
+	<color name="dark_gray">#777</color>
+	<color name="gray">#dddddd</color>
+	<color name="light_blue_500">#03A9F4</color>
+	<color name="light_gray">#f5f5f5</color>
+	<color name="green_500">#4CAF50</color>
+	<color name="light_green_500">#8BC34A</color>
+	
+	<color name="card_bg">@color/gray</color>
+	<color name="title_bg">@color/green_500</color>
+	<color name="window_bg">@color/light_gray</color>
+	<color name="attr_e">@color/dark_gray</color>
+	<color name="attr_d">@color/green_500</color>
+	<color name="attr_c">@color/light_green_500</color>
+	<color name="attr_b">@color/light_blue_500</color>
+	<color name="attr_a">@color/black</color>
+	
+	
+</resources>
