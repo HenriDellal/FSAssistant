@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="ru.henridellal.fsassist"
-	android:versionCode="3"
-	android:versionName="1.0.2" >
+	android:versionCode="4"
+	android:versionName="1.0.3" >
 
 	<uses-sdk 
 		android:minSdkVersion="11" 
-		android:targetSdkVersion="21" />
+		android:targetSdkVersion="26" />
 
 	<application
 		android:icon="@drawable/ic_launcher"
@@ -64,5 +64,6 @@
 			/>
 		</activity>
 	</application>
-	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission-sdk-23 android:name="android.permission.READ_EXTERNAL_STORAGE" />
 </manifest>

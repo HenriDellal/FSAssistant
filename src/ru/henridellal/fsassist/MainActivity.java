@@ -5,7 +5,10 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.Manifest;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.preference.PreferenceManager;
@@ -57,10 +60,18 @@ public class MainActivity extends Activity
 				startActivity(intent);
 			}
 		});
+		if (Build.VERSION.SDK_INT >= 23) {
+			requestPermissions(new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 0);
+			if (checkSelfPermission(Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
+				finish();
+			}
+		}
 	}
 	
 	@Override
 	public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+		if (grantResults[0] == PackageManager.PERMISSION_DENIED) {
+			finish();
+		}
 	}
 }
