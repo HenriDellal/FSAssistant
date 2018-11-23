@@ -1,0 +1,13 @@
+This application lets you to view your club's players list easily and compare them by any attribute.
+
+'''How to use?'''
+
+Download .xls file from your players page, then launch the application and load the file. After that you'll see the players list. To see more information about the player tap on his name.
+
+'''What is GK(45.6) thing?'''
+
+It is a position rate which is calculated based on skill importance table provided by FootballStrategy.org developers. The maximum value is 100. I would recommend to choose player position from the best five.
+
+'''What does LR in position name mean?'''
+
+It is short for left/right wing. WBLR means both WBL and WBR positions and so on.
